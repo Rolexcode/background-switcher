@@ -12,7 +12,7 @@ JavaScript: Programming language used to implement the functionality of generati
 Getting Started
 To run the Random Color Generator on your local machine, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/background-switcher.git
+Clone the repository: git clone https://github.com/rolexcode/background-switcher.git
 Open the index.html file in a web browser.
 Usage
 Open the webpage in a web browser.
