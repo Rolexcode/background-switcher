@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-Switcher</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 91vw;
+            height: 91vh;
+        }
+        #btn{
+            padding: 15px 30px;
+            border-radius: 5px;
+            border: 1px solid white;
+            color: white;
+            background-color: transparent ;
+            font-size: 20px;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            cursor:pointer;
+        }
+        #btn:hover{
+            background-color: white;
+            transition: all ease .8s;
+            color: black ;
+        }
+        b {
+            position: absolute;
+            bottom: 10px;
+            left: 37%;
+        }
+        h1 {
+            position: absolute;
+            bottom: 10px;
+            left: 40%;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <button id="btn">Click me</button>
+    </div>
+    <h1>Here is the color value</h1>
+    <b id="demo"></b>
+    <script src="./script.js"></script>
+</body>
+</html>
